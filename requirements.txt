@@ -1,0 +1,7 @@
+Wheel
+pytest
+pipreqs
+flake8
+black
+Mongo
+TwitchAPI
