@@ -2,11 +2,11 @@ import os
 from pprint import pprint
 from twitchAPI import Twitch
 
-twitchid = os.environ.get("TWITCH_ID")
-# print(twitchid)
+twitchid = os.environ.get("TEST_TWITCH_ID")
+print(twitchid)
 
-twitchsecret = os.environ.get("TWITCH_SECRET")
-# print(twitchsecret)
+twitchsecret = os.environ.get("TEST_TWITCH_SECRET")
+print(twitchsecret)
 
 twitch = Twitch(twitchid, twitchsecret)  # token and secret
 twitch.authenticate_app([])
